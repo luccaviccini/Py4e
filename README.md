@@ -1,3 +1,3 @@
 # Py4e
-Python codes begginer
+Python codes beginner
 
