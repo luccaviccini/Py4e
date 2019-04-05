@@ -135,6 +135,10 @@ for num in [9, 41, 12, 3, 74, 15]:
 print("After, the smallest number is: ", small)
 print("Number of iterations: ", i)
 
+## End of Introduction to Python
+
+
+
 
 
 
