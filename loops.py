@@ -35,7 +35,7 @@ for thing in range(0,size,1):
     #print(thing)
 print(largest_number)
 '''
-#finding the niggest number
+#finding the biggest number
 '''
 largest = 0
 print('Before', largest)
@@ -88,8 +88,9 @@ for value in [9, 41, 12, 3, 74, 15]:
 print('After')
 '''
 
-# search using a boolean variable
-found = False
+# search using a boolean variable and how many iterations it took
+
+'''found = False
 print('Before', found)
 counter = 0
 for value in [9, 41, 12, 3, 74, 15]:
@@ -99,9 +100,40 @@ for value in [9, 41, 12, 3, 74, 15]:
         print(found, value)
         print('number of iterations: ', counter)
         
-print('After', found)    
-        
+print('After', found)
 
+'''
+
+# smallest value of a list with counter
+'''
+small = 1000
+print('Before', small)
+i=0
+for num in [9, 41, 12, 3, 74, 15]:
+    i = i + 1
+    if num < small:
+        small = num
+    print(small, num)
+print("After, the smallest number is: ", small)
+print("Number of iterations: ", i)
+
+'''
+# using None Variable
+        
+small = None
+print('Before', small)
+i=0
+for num in [9, 41, 12, 3, 74, 15]:
+    i = i + 1
+    if small is None: # its only going to run 1st time
+        small = num
+        
+    elif num < small:
+        small = num
+        
+    print(small, num)
+print("After, the smallest number is: ", small)
+print("Number of iterations: ", i)
 
 
 
