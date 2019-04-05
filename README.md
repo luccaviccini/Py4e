@@ -1,2 +1,3 @@
 # Py4e
-Codes from Python for everybody course by Charles Severance
+Python codes begginer
+
