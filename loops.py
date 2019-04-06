@@ -119,7 +119,7 @@ print("Number of iterations: ", i)
 
 '''
 # using None Variable
-        
+'''        
 small = None
 print('Before', small)
 i=0
@@ -134,8 +134,12 @@ for num in [9, 41, 12, 3, 74, 15]:
     print(small, num)
 print("After, the smallest number is: ", small)
 print("Number of iterations: ", i)
+'''
 
 ## End of Introduction to Python
+
+
+
 
 
 
