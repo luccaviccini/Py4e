@@ -36,7 +36,7 @@ for letter in fruit:
     print(letter)
 '''
 
-# looping and counting
+# looping and counting (searching for a determinate letter in a string)
 '''
 word = 'banana'
 count = 0
@@ -45,11 +45,48 @@ for letter in word:
         count = count + 1
 print(count)
 '''
-
+# more thing with strings indexes
+'''
 s = 'Monty Python'
 print(s[0:4])
 print(s[6:7])
 print(s[6:20])
 
 print(s[:4]) # ommits 0 but same thing
-print(s[6:]) 
+print(s[6:])
+'''
+# string concatenation
+'''
+a = 'Hello'
+b =  a +'There' #string concatenation does not add space
+
+c = a + ' ' + 'There'
+'''
+
+# using 'in' as a Logical operator
+'''
+fruit = 'banana'
+
+'n' in fruit
+'nan' in fruit
+
+if 'a' in fruit:
+    print('There is an a')
+'''
+
+# string library
+
+greet = 'Hello Bob'
+zap = greet.lower() # will return the string in lowercase
+
+# functions -> look online for methods of class strigs
+
+newstr = greet.replace('Bob', 'Jane')
+boolean = greet.startswith('Hello')
+
+# looks for substring of a bigger strings
+
+fruit = 'banana'
+pos = fruit.find('na') # returns position of first letter of substring
+
+# if the method find does not find the substring, then returns -1
