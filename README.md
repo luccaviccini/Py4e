@@ -1,4 +1,3 @@
 # Py4e
-Python codes beginner
 
-this is a line for testing branches 1
+This course was taken on Coursera taught by charles severance from the university of Michigan
