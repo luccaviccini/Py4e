@@ -1,3 +1,3 @@
 # Py4e
 
-This course was taken on Coursera taught by charles severance from the university of Michigan
+This course was taken on Coursera taught by Charles Severance from the University of Michigan
